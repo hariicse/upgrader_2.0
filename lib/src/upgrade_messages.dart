@@ -46,7 +46,7 @@ enum UpgraderMessage {
 ///   String get buttonTitleIgnore => 'My Ignore';
 /// }
 ///
-/// UpgradeAlert(messages: MyUpgraderMessages());
+/// UpgradeAlert(upgrader: Upgrader(messages: MyUpgraderMessages());
 /// ```
 ///
 class UpgraderMessages {
